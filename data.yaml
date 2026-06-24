@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Bent', 'tear', 'wrinkle']
+
+roboflow:
+  workspace: new-workspace-56yym
+  project: paperbag-defect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-56yym/paperbag-defect/dataset/1
